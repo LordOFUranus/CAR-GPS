@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      tools:showIn="navigation_view">
+    <item android:title="Пользователь" android:id="@id/item_account" android:icon="@mipmap/user_icon_foreground"/>
+    <item android:title="Меню">
+          <menu>
+              <item android:title="Пользователь" android:id="@+id/item_account"></item>
+              <item android:title="Лента" android:id="@+id/item_feed"></item>
+              <item android:title="Виалон - WebView" android:id="@+id/item_wialon"></item>
+              <item android:title="Карта" android:id="@+id/item_map"></item>
+              <item android:title="Тестовая" android:id="@+id/item_test"></item>
+              <item android:title="Выход" android:id="@+id/item_exit"></item>
+        </menu>
+    </item>
+
+</menu>
